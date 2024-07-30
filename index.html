@@ -9,32 +9,33 @@
 <body>
     <div class="page">
         <div class="calculator">
-            <input placeholder="input">
+            <input class="output"  placeholder="input">
             <div>
-                <button >1</button>
-                <button >2</button>
-                <button >3</button>
+                <button onclick="out(1);">1</button>
+                <button onclick="out(2);">2</button>
+                <button onclick="out(3);">3</button>
             </div>
             <div>
-                <button >4</button>
-                <button >5</button>
-                <button >6</button>
+                <button onclick="out(4);">4</button>
+                <button onclick="out(5);">5</button>
+                <button onclick="out(6);">6</button>
             </div>
             <div>
-                <button >7</button>
-                <button >8</button>
-                <button >9</button>
+                <button onclick="out(7);">7</button>
+                <button onclick="out(8);">8</button>
+                <button onclick="out(9);">9</button>
             </div>
             <div>
-                <button >0</button>
-                <button >+</button>
-                <button >-</button>
+                <button onclick="out(0);">0</button>
+                <button onclick="out(`+`);">+</button>
+                <button onclick="out(`-`);">-</button>
             </div>
             <div>
-                <button >*</button>
-                <button >/</button>
-                <button >=</button>
+                <button onclick="out(`*`);">*</button>
+                <button onclick="out(`/`);">/</button>
+                <button onclick="outp();">=</button>
             </div>
+            <button onclick="clear();">clear</button>
 
 
         </div>
